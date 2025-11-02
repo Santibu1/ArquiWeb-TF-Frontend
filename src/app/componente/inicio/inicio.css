@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+  background-color: #f4f4f7;
+  padding: 20px 50px;
+  padding-top: 30px;
+  padding-bottom: 12rem;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 16px;
+  margin-top: 0px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.labels h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.labels div {
+  text-align: center;
+}
+.labels div p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.labels div p:first-child {
+  color: #6c757d;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.labels div p:last-child {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.labels div:nth-of-type(1) p:last-child {
+  color: #28a745;
+}
+.labels div:nth-of-type(2) p:last-child {
+  color: #17a2b8;
+}
+.labels div:nth-of-type(3) p:last-child {
+  color: #343a40;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #e8dff5;
+  color: #6f42c1;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.comunidadesRecientes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.comunidad-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  position: relative; /* Necesario para la insignia */
+}
+
+.card-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.card-icon {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #6c757d;
+  font-weight: bold;
+}
+.card-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #6c757d;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.btn-conversacion {
+  display: inline-block;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-conversacion:hover {
+  background-color: #495057;
+}
