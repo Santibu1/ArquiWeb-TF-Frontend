@@ -1,15 +1,21 @@
 <!-- Header -->
 <header>
-  <h2>Eco-Chips</h2>
-  <nav>
-    | <a [routerLink]="'/'">Inicio</a> |
-    <a [routerLink]="'/comunidad'">Comunidades</a> |
-    <a [routerLink]="'/estadisticas'">Mis Estadísticas</a> |
-    <a [routerLink]="'/actividades'" >Actividades</a> |
-    <a [routerLink]="'/canjear'" >Canjear</a> |
-    <a [routerLink]="'/suscripcion'">Suscripción</a> |
-  </nav>
-  <button class="btn-cerrar-sesion">Cerrar Sesión</button>
+    <h2>Eco-Chips</h2>
+    <nav>
+        | <a [routerLink]="'/'">Inicio</a> |
+        <a [routerLink]="'/comunidad'">Comunidades</a> |
+        <a [routerLink]="'/estadisticas'">Mis Estadísticas</a> |
+        <a [routerLink]="'/actividades'" >Actividades</a> |
+        <a [routerLink]="'/canjear'" >Canjear</a> |
+        <a [routerLink]="'/suscripcion'">Suscripción</a> |
+        <a [routerLink]="'/admin/actividades'">
+            [ADMIN] Gestión Actividades
+        </a> |
+        <a [routerLink]="'/admin/reportes/empresas'">
+            [ADMIN] Reporte de Empresas
+        </a> |
+    </nav>
+    <button class="btn-cerrar-sesion">Cerrar Sesión</button>
 </header>
 
 
@@ -19,25 +25,25 @@
 
 <!-- Footer -->
 <footer class="footer">
-  <div class="footer-content">
-    <div class="footer-section">
-      <h4>Contacto</h4>
-      <p>Correo: ecochip&#64;gmail.com</p>
-      <p>Teléfono: 987654321</p>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Correo: ecochip&#64;gmail.com</p>
+            <p>Teléfono: 987654321</p>
+        </div>
+        <div class="footer-section">
+            <h4>Términos y Condiciones</h4>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon facebook">
+                <span>f</span>
+            </a>
+            <a href="#" class="social-icon instagram">
+                <span>📷</span>
+            </a>
+            <a href="#" class="social-icon whatsapp">
+                <span>💬</span>
+            </a>
+        </div>
     </div>
-    <div class="footer-section">
-      <h4>Términos y Condiciones</h4>
-    </div>
-    <div class="footer-social">
-      <a href="#" class="social-icon facebook">
-        <span>f</span>
-      </a>
-      <a href="#" class="social-icon instagram">
-        <span>📷</span>
-      </a>
-      <a href="#" class="social-icon whatsapp">
-        <span>💬</span>
-      </a>
-    </div>
-  </div>
 </footer>
